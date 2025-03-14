@@ -1,0 +1,38 @@
+*{
+    border: 0%;
+    padding: 0%;
+}
+
+:root{
+    --c1 : #3c1006;
+    --c2 : #7e3615;
+    --c3 : #ab653d;
+    --c4 : #d3bca5;
+    --c5 : #dfd8cd;
+}
+
+body{
+    background-color: var(--c1);
+    color: var(--c5);
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    all: unset;
+    padding: 5px;
+    margin: 2px;
+    border-radius: 3px;
+    background-color: var(--c2);
+    color: var(--c5);
+    cursor: pointer;
+}
+
+input{
+    all: unset;
+    width: 300px;
+    background-color: var(--c1);
+    border: solid 2px var(--c2);
+    border-radius: 3px;
+    color: var(--c5);
+}
